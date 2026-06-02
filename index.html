@@ -4,45 +4,155 @@
   <meta charset="UTF-8">
   <title>UnrealtechnologDev</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 850px;
+      max-width: 950px;
       margin: 40px auto;
       padding: 0 20px;
       line-height: 1.6;
       color: #222;
+      background: #ffffff;
     }
-    h1, h2 {
+
+    h1, h2, h3 {
       color: #111;
     }
+
+    h1 {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #0066cc;
+    }
+
+    .subtitle {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
+
     .box {
       border: 1px solid #ddd;
-      border-radius: 8px;
-      padding: 16px;
-      margin: 16px 0;
+      border-radius: 10px;
+      padding: 18px;
+      margin: 20px 0;
       background: #f9f9f9;
+    }
+
+    .hero-image {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid #ddd;
+      margin: 18px 0;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .feature-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 16px;
+      background: #ffffff;
+    }
+
+    .note {
+      background: #eef7ff;
+      border: 1px solid #cce7ff;
+      border-radius: 10px;
+      padding: 16px;
+      margin: 20px 0;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      color: #666;
+      font-size: 0.95rem;
     }
   </style>
 </head>
+
 <body>
 
   <h1>UnrealtechnologDev</h1>
+  <p class="subtitle">Independent hobby developer creating game development assets and tools.</p>
 
   <p>
-    I am an independent hobby developer creating tools and assets for game developers.
-    This site provides support, and contact information for my published assets.
+    Welcome to my support and documentation page. I create assets for game developers,
+    with a focus on simple, useful, and easy-to-customize content for personal and commercial projects.
   </p>
 
   <h2>Assets</h2>
 
   <div class="box">
-    <h3>Coming Soon</h3>
+    <h3>Stylized Water, Terrain & Foliage Pack</h3>
+
+    <img src="preview.png" alt="Preview image of the stylized water, terrain, rocks, and foliage asset pack" class="hero-image">
+
     <p>
-      My Unity Asset Store assets will be listed here with documentation, setup instructions,
-      FAQs, and changelogs.
+      This package includes a stylized water shader, a simple terrain shader, and basic foliage assets.
+      It is designed for developers who want a clean, colorful environment style for their projects.
     </p>
+
+    <p>
+      This package is free to use in any personal or commercial project.
+      Credit is not required, but a reference or link back would be greatly appreciated.
+    </p>
+
+    <div class="feature-grid">
+
+      <div class="feature-card">
+        <h3>Water Shader</h3>
+        <ul>
+          <li>Customizable colors</li>
+          <li>Foam</li>
+          <li>Waves</li>
+          <li>Intersection effects</li>
+        </ul>
+      </div>
+
+      <div class="feature-card">
+        <h3>Simple Terrain Shader</h3>
+        <ul>
+          <li>Height-based coloring</li>
+          <li>Simple stylized terrain look</li>
+        </ul>
+      </div>
+
+      <div class="feature-card">
+        <h3>Foliage Assets</h3>
+        <ul>
+          <li>Tree</li>
+          <li>Bush</li>
+          <li>Rock</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="note">
+      <p>
+        This is my first package, so suggestions and feedback are very welcome.
+        Thanks for checking it out!
+      </p>
+    </div>
   </div>
+
+  <h2>Documentation</h2>
+
+  <p>
+    Documentation is included with the asset package. It contains setup information,
+    usage notes, and basic customization guidance.
+  </p>
 
   <h2>Support</h2>
 
@@ -59,7 +169,7 @@
     <li>Asset name</li>
     <li>Asset version</li>
     <li>Unity version</li>
-    <li>Error messages or screenshots</li>
+    <li>Error messages or screenshots, if available</li>
     <li>Steps to reproduce the issue</li>
   </ul>
 
@@ -67,11 +177,17 @@
     I usually respond within 2–5 days.
   </p>
 
-  <h2>Documentation</h2>
+  <h2>Privacy</h2>
 
   <p>
-    Documentation is includet in each asset.
+    This asset package does not collect personal data, use analytics, or require an online account.
   </p>
+
+  <footer>
+    <p>
+      © UnrealtechnologDev. This site provides support and information for my published game development assets.
+    </p>
+  </footer>
 
 </body>
 </html>
